@@ -1,0 +1,25 @@
+/*
+ * WP Vultr Monitor — Admin Styles v1.0.9
+ * Layout is handled via position:fixed in admin.js (measures actual sidebar/adminbar).
+ * This file only handles the root mount point and loading state.
+ */
+
+#wvm-root {
+	display: block;
+}
+
+#wvm-root:empty::after {
+	content: '';
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -18px 0 0 -18px;
+	width: 36px;
+	height: 36px;
+	border: 3px solid #D6E4FF;
+	border-top-color: #0670E8;
+	border-radius: 50%;
+	animation: wvm-spin 0.7s linear infinite;
+}
+
+@keyframes wvm-spin { to { transform: rotate(360deg); } }
