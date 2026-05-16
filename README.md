@@ -213,7 +213,7 @@ GPL-2.0-or-later — see [LICENSE](LICENSE) for full terms.
 
 ## Author
 
-Built and maintained by [Nahnu Plugins](https://www.nahnuplugins.com) — a free WordPress plugin brand by [Nahnu Media](https://nahnumedia.com).
+Built and maintained by [Nahnu Plugins](https://www.nahnuplugins.com) — a WordPress plugin brand by [Nahnu Media](https://www.nahnumedia.com).
 
 - GitHub: [github.com/jaimealnassim/wp-vultr-monitor](https://github.com/jaimealnassim/wp-vultr-monitor)
 - More plugins: [nahnuplugins.com](https://www.nahnuplugins.com)
